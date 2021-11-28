@@ -1,0 +1,41 @@
+[
+    {
+        "id" : 12312321,
+        "message" : "Hi, just a reminder to pay your rent for this month by tomorrow thx",
+        "created_at" : "13:15",
+        "type" : "text",
+        "status" : "0",
+        "user" :{
+            "id": "232423",
+            "first_name" : "Ricky",
+            "last_name" : "Pranaya",
+            "profile_image" : null
+        }
+    },
+    {
+        "id" : 1231321,
+        "message" : "Ok noted!",
+        "created_at" : "12:00",
+        "type" : "text",
+        "status" : "1",
+        "user" :{
+            "id": "0",
+            "first_name" : "John",
+            "last_name" : "Doe",
+            "profile_image" : null
+        }
+    },
+    {
+        "id" : 2332423,
+        "message" : "I'll pay it now through the app",
+        "created_at" : "12:00",
+        "type" : "text",
+        "status" : "1",
+        "user" :{
+            "id": "0",
+            "first_name" : "Bernard",
+            "last_name" : null ,
+            "profile_image" : null
+        }
+    }
+]

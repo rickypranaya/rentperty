@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "need",
-    "slug": "need",
+    "name": "rentperty",
+    "slug": "rentperty",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,7 +23,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "READ_INTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyChqy7S2_rVs6Gvjg2jrqXRsn_XcBryGow"
+        }
+      },
+      "package": "com.rickypranaya.rentperty"
     },
     "web": {
       "favicon": "./assets/favicon.png"
